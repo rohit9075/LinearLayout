@@ -12,39 +12,45 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#c997aff1"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginBottom="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:layout_marginLeft="@dimen/dimen_20dp"
+        android:layout_marginBottom="@dimen/dimen_20dp"
+        android:layout_marginRight="@dimen/dimen_20dp"
         android:orientation="vertical">
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:paddingLeft="10dp"
-            android:hint="Name"/>
+            android:layout_height="@dimen/dimen_50dp"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:layout_marginLeft="@dimen/dimen_20dp"
+            android:layout_marginRight="@dimen/dimen_20dp"
+            android:inputType="text"
+            android:paddingStart="@dimen/dimen_10dp"
+            android:hint="@string/text_name"
+            tools:ignore="RtlSymmetry" />
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:paddingLeft="10dp"
-            android:hint="Mobile"/>
+            android:layout_height="@dimen/dimen_50dp"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:layout_marginLeft="@dimen/dimen_20dp"
+            android:layout_marginRight="@dimen/dimen_20dp"
+            android:paddingStart="@dimen/dimen_10dp"
+            android:inputType="text"
+            android:hint="@string/text_mobile"
+            tools:ignore="RtlSymmetry" />
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:paddingLeft="10dp"
-            android:layout_marginBottom="20dp"
-            android:hint="Emal"/>
+            android:layout_height="@dimen/dimen_50dp"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:layout_marginLeft="@dimen/dimen_20dp"
+            android:layout_marginRight="@dimen/dimen_20dp"
+            android:paddingStart="@dimen/dimen_10dp"
+            android:layout_marginBottom="@dimen/dimen_20dp"
+            android:inputType="text"
+            android:hint="@string/text_eamil"
+            tools:ignore="RtlSymmetry" />
 
     </LinearLayout>
 
@@ -54,41 +60,47 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#c970e9bc"
-        android:layout_marginLeft="20dp"
-        android:layout_marginBottom="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginLeft="@dimen/dimen_20dp"
+        android:layout_marginBottom="@dimen/dimen_20dp"
+        android:layout_marginRight="@dimen/dimen_20dp"
         android:orientation="horizontal">
 
         <EditText
             android:layout_width="0dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:paddingLeft="10dp"
+            android:layout_height="@dimen/dimen_50dp"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:layout_marginLeft="@dimen/dimen_20dp"
+            android:layout_marginRight="@dimen/dimen_20dp"
+            android:paddingStart="@dimen/dimen_10dp"
             android:layout_weight="1"
-            android:hint="Name"/>
+            android:inputType="text"
+            android:hint="@string/text_name"
+            tools:ignore="RtlSymmetry" />
 
         <EditText
             android:layout_width="0dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:paddingLeft="10dp"
+            android:layout_height="@dimen/dimen_50dp"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:layout_marginLeft="@dimen/dimen_20dp"
+            android:layout_marginRight="@dimen/dimen_20dp"
+            android:paddingStart="@dimen/dimen_10dp"
             android:layout_weight="1"
-            android:hint="Mobile"/>
+            android:inputType="text"
+            android:hint="@string/text_mobile"
+            tools:ignore="RtlSymmetry" />
 
         <EditText
             android:layout_width="0dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:paddingLeft="10dp"
+            android:layout_height="@dimen/dimen_50dp"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:layout_marginLeft="@dimen/dimen_20dp"
+            android:layout_marginRight="@dimen/dimen_20dp"
+            android:paddingLeft="@dimen/dimen_10dp"
             android:layout_weight="1"
-            android:layout_marginBottom="20dp"
-            android:hint="Emal"/>
+            android:layout_marginBottom="@dimen/dimen_20dp"
+            android:hint="@string/text_eamil"
+            android:inputType="text"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
 
     </LinearLayout>
 
@@ -98,42 +110,44 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#c9ec97f1"
-        android:layout_marginLeft="20dp"
-        android:layout_marginBottom="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginLeft="@dimen/dimen_20dp"
+        android:layout_marginBottom="@dimen/dimen_20dp"
+        android:layout_marginRight="@dimen/dimen_20dp"
         android:orientation="horizontal">
 
         <EditText
             android:layout_width="0dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="20dp"
-            android:paddingLeft="10dp"
-            android:layout_marginRight="10dp"
+            android:layout_height="@dimen/dimen_50dp"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:paddingStart="@dimen/dimen_10dp"
+            android:layout_marginEnd="@dimen/dimen_10dp"
             android:layout_weight="2"
-            android:hint="Name"/>
+            android:inputType="text"
+            android:hint="@string/text_name"
+            tools:ignore="RtlSymmetry" />
 
         <EditText
             android:layout_width="0dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="20dp"
-            android:paddingLeft="10dp"
+            android:layout_height="@dimen/dimen_50dp"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:paddingStart="@dimen/dimen_10dp"
             android:layout_weight="1"
-            android:hint="Mob" />
+            android:inputType="text"
+            android:hint="@string/text_mob"
+            tools:ignore="RtlSymmetry" />
 
         <EditText
             android:layout_width="0dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:paddingLeft="10dp"
+            android:layout_height="@dimen/dimen_50dp"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:layout_marginLeft="@dimen/dimen_20dp"
+            android:layout_marginRight="@dimen/dimen_20dp"
+            android:paddingStart="@dimen/dimen_10dp"
             android:layout_weight="2"
-            android:layout_marginBottom="20dp"
-            android:hint="Emal"/>
+            android:inputType="text"
+            android:layout_marginBottom="@dimen/dimen_20dp"
+            android:hint="@string/text_eamil"
+            tools:ignore="RtlSymmetry" />
 
     </LinearLayout>
-
-
-
-
 </LinearLayout>
